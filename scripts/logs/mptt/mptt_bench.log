@@ -1,0 +1,27 @@
+2025-06-24 07:00:57,964 [INFO] ⏳ Construindo árvore com estrutura 3-3-5-10-15...
+2025-06-24 07:01:13,686 [INFO] Árvore construída: 7258 nós no total.
+2025-06-24 07:01:13,689 [INFO] ✅ Árvore construída em 15.73s
+2025-06-24 07:01:13,689 [INFO] 
+📌 Medindo tempo de criação de novo nó em diferentes profundidades:
+2025-06-24 07:01:13,724 [INFO] + Novo nó em L1 criado em 0.034467s
+2025-06-24 07:01:13,776 [INFO] + Novo nó em L2 criado em 0.051777s
+2025-06-24 07:01:13,832 [INFO] + Novo nó em L3 criado em 0.056366s
+2025-06-24 07:01:13,886 [INFO] + Novo nó em L4 criado em 0.054057s
+2025-06-24 07:01:13,936 [INFO] + Novo nó em L5 criado em 0.049490s
+2025-06-24 07:01:13,936 [INFO] 
+🔎 Medindo tempo de leitura de descendentes:
+2025-06-24 07:01:13,949 [INFO] 📂 Descendentes de L1-0-0: 2423 nós em 0.013012s
+2025-06-24 07:01:13,955 [INFO] 📂 Descendentes de L2-0-0: 809 nós em 0.005692s
+2025-06-24 07:01:13,958 [INFO] 📂 Descendentes de L3-0-0: 163 nós em 0.002462s
+2025-06-24 07:01:13,960 [INFO] 📂 Descendentes de L4-0-0: 17 nós em 0.001753s
+2025-06-24 07:01:13,961 [INFO] 📂 Descendentes de L5-0-0: 1 nós em 0.001643s
+2025-06-24 07:01:13,961 [INFO] 
+🔍 Medindo tempo de leitura de ancestrais:
+2025-06-24 07:01:13,963 [INFO] 📁 Ancestrais de L5-0-0: 5 níveis em 0.001607s
+2025-06-24 07:01:13,965 [INFO] 📁 Ancestrais de L4-0-0: 4 níveis em 0.001589s
+2025-06-24 07:01:13,966 [INFO] 📁 Ancestrais de L3-0-0: 3 níveis em 0.001568s
+2025-06-24 07:01:13,968 [INFO] 📁 Ancestrais de L2-0-0: 2 níveis em 0.001606s
+2025-06-24 07:01:13,970 [INFO] 📁 Ancestrais de L1-0-0: 1 níveis em 0.001603s
+2025-06-24 07:01:13,970 [INFO] 
+🔁 Movimentando um nó profundo:
+2025-06-24 07:01:14,028 [INFO] 🔄 Nó L5-0-0 movido para L1-1-0 em 0.058393s
