@@ -29,7 +29,9 @@ class Church(models.Model):
         return self.node.get_ancestors()
 
 class BasicUserSubgroupUnit(models.Model):
-    subgroup_unit = models.ManyToManyField(SubgroupUnit)
+    subgroup_unit = models.ManyToManyField(SubgroupUnit, related_name='subgroup_unit')
+
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
 
     class Meta:
         abstract = True
@@ -43,3 +45,14 @@ class Event(BasicUserSubgroupUnit):
 
     def __str__(self):
         return self.name
+
+
+def print_subgroup_unit_tree():
+    def print_node(node, level=0):
+        indent = "   " * level
+        print(f"{indent}- {node.name} (depth={node.depth}, path={node.path})")
+        for child in node.get_children():
+            print_node(child, level + 1)
+
+    for root in SubgroupUnit.get_root_nodes():
+        print_node(root)
